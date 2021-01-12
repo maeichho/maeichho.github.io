@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://maeichho.github.io/sitemap.xml
