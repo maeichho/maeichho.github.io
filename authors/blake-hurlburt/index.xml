@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blake Hurlburt on Matt Eichhorn</title>
-    <link>https://maeichho.github.io/authors/blake-hurlburt/</link>
-    <description>Recent content in Blake Hurlburt on Matt Eichhorn</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://maeichho.github.io/authors/blake-hurlburt/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Blake Hurlburt | Academic</title>
+    <link>https://example.com/authors/blake-hurlburt/</link>
+      <atom:link href="https://example.com/authors/blake-hurlburt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blake Hurlburt</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Blake Hurlburt</title>
+      <link>https://example.com/authors/blake-hurlburt/</link>
+    </image>
     
     <item>
       <title>Fast Counting in Machine Learning Applications</title>
-      <link>https://maeichho.github.io/publication/uai18/</link>
+      <link>https://example.com/publication/uai18/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://maeichho.github.io/publication/uai18/</guid>
-      <description>We propose scalable methods to execute counting queries in machine learning applications.</description>
+      <guid>https://example.com/publication/uai18/</guid>
+      <description></description>
     </item>
     
   </channel>

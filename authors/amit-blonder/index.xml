@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amit Blonder on Matt Eichhorn</title>
-    <link>https://maeichho.github.io/authors/amit-blonder/</link>
-    <description>Recent content in Amit Blonder on Matt Eichhorn</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://maeichho.github.io/authors/amit-blonder/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Amit Blonder | Academic</title>
+    <link>https://example.com/authors/amit-blonder/</link>
+      <atom:link href="https://example.com/authors/amit-blonder/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amit Blonder</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Amit Blonder</title>
+      <link>https://example.com/authors/amit-blonder/</link>
+    </image>
     
     <item>
       <title>Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</title>
-      <link>https://maeichho.github.io/publication/iclr20/</link>
+      <link>https://example.com/publication/iclr20/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://maeichho.github.io/publication/iclr20/</guid>
-      <description>We introduce a family of matrices that provably capture any structured matrix with near-optimal parameter and arithmetic operation complexity. We empirically validate that these matrices can be automatically learned within end-to-end pipelines to improve model quality.</description>
+      <guid>https://example.com/publication/iclr20/</guid>
+      <description></description>
     </item>
     
   </channel>
