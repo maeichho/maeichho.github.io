@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Matt Eichhorn</title>
+    <link>https://maeichho.github.io/publication-type/2/</link>
+    <description>Recent content in 2 on Matt Eichhorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maeichho.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated Survey of Selected Common Plant Species in Thai Homegardens Using Google Street View Imagery and a Deep Neural Network</title>
+      <link>https://maeichho.github.io/publication/esi21/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://maeichho.github.io/publication/esi21/</guid>
+      <description>We demonstrate the feasibility of using the high-resolution street-level photographs in Google Street View and an object-detection network (RetinaNet) to create a large-scale high-resolution survey of the prevalence of at least six plant species widely grown in road-facing homegardens in Thailand.</description>
+    </item>
+    
+  </channel>
+</rss>

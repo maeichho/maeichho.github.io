@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nimit S. Sohoni on Matt Eichhorn</title>
+    <link>https://maeichho.github.io/authors/nimit-s.-sohoni/</link>
+    <description>Recent content in Nimit S. Sohoni on Matt Eichhorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maeichho.github.io/authors/nimit-s.-sohoni/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</title>
+      <link>https://maeichho.github.io/publication/iclr20/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maeichho.github.io/publication/iclr20/</guid>
+      <description>We introduce a family of matrices that provably capture any structured matrix with near-optimal parameter and arithmetic operation complexity. We empirically validate that these matrices can be automatically learned within end-to-end pipelines to improve model quality.</description>
+    </item>
+    
+  </channel>
+</rss>
