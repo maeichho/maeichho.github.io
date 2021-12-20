@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nimit S. Sohoni | Academic</title>
-    <link>https://example.com/authors/nimit-s.-sohoni/</link>
-      <atom:link href="https://example.com/authors/nimit-s.-sohoni/index.xml" rel="self" type="application/rss+xml" />
+    <title>Nimit S. Sohoni | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/authors/nimit-s.-sohoni/</link>
+      <atom:link href="https://maeichho.github.io/authors/nimit-s.-sohoni/index.xml" rel="self" type="application/rss+xml" />
     <description>Nimit S. Sohoni</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>Nimit S. Sohoni</title>
-      <link>https://example.com/authors/nimit-s.-sohoni/</link>
+      <link>https://maeichho.github.io/authors/nimit-s.-sohoni/</link>
     </image>
     
     <item>
       <title>Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</title>
-      <link>https://example.com/publication/iclr20/</link>
+      <link>https://maeichho.github.io/publication/iclr20/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iclr20/</guid>
+      <guid>https://maeichho.github.io/publication/iclr20/</guid>
       <description></description>
     </item>
     

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <title>Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/</link>
+      <atom:link href="https://maeichho.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Matthew Eichhorn</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Academic</title>
-      <link>https://example.com/</link>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
+      <title>Matthew Eichhorn</title>
+      <link>https://maeichho.github.io/</link>
     </image>
     
     <item>
       <title>Automated Survey of Selected Common Plant Species in Thai Homegardens Using Google Street View Imagery and a Deep Neural Network</title>
-      <link>https://example.com/publication/esi21/</link>
+      <link>https://maeichho.github.io/publication/esi21/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/esi21/</guid>
+      <guid>https://maeichho.github.io/publication/esi21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</title>
-      <link>https://example.com/publication/iclr20/</link>
+      <link>https://maeichho.github.io/publication/iclr20/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iclr20/</guid>
+      <guid>https://maeichho.github.io/publication/iclr20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Fast Algorithms for Linear Transforms Using Butterfly Factorizations</title>
-      <link>https://example.com/publication/icml19/</link>
+      <link>https://maeichho.github.io/publication/icml19/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/icml19/</guid>
+      <guid>https://maeichho.github.io/publication/icml19/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fast Counting in Machine Learning Applications</title>
-      <link>https://example.com/publication/uai18/</link>
+      <link>https://maeichho.github.io/publication/uai18/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/uai18/</guid>
+      <guid>https://maeichho.github.io/publication/uai18/</guid>
       <description></description>
     </item>
     

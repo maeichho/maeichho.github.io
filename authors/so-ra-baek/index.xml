@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>So-Ra Baek | Academic</title>
-    <link>https://example.com/authors/so-ra-baek/</link>
-      <atom:link href="https://example.com/authors/so-ra-baek/index.xml" rel="self" type="application/rss+xml" />
+    <title>So-Ra Baek | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/authors/so-ra-baek/</link>
+      <atom:link href="https://maeichho.github.io/authors/so-ra-baek/index.xml" rel="self" type="application/rss+xml" />
     <description>So-Ra Baek</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>So-Ra Baek</title>
-      <link>https://example.com/authors/so-ra-baek/</link>
+      <link>https://maeichho.github.io/authors/so-ra-baek/</link>
     </image>
     
     <item>
       <title>Automated Survey of Selected Common Plant Species in Thai Homegardens Using Google Street View Imagery and a Deep Neural Network</title>
-      <link>https://example.com/publication/esi21/</link>
+      <link>https://maeichho.github.io/publication/esi21/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/esi21/</guid>
+      <guid>https://maeichho.github.io/publication/esi21/</guid>
       <description></description>
     </item>
     

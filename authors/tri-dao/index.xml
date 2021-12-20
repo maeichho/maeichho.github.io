@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tri Dao | Academic</title>
-    <link>https://example.com/authors/tri-dao/</link>
-      <atom:link href="https://example.com/authors/tri-dao/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tri Dao | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/authors/tri-dao/</link>
+      <atom:link href="https://maeichho.github.io/authors/tri-dao/index.xml" rel="self" type="application/rss+xml" />
     <description>Tri Dao</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>Tri Dao</title>
-      <link>https://example.com/authors/tri-dao/</link>
+      <link>https://maeichho.github.io/authors/tri-dao/</link>
     </image>
     
     <item>
       <title>Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</title>
-      <link>https://example.com/publication/iclr20/</link>
+      <link>https://maeichho.github.io/publication/iclr20/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iclr20/</guid>
+      <guid>https://maeichho.github.io/publication/iclr20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Fast Algorithms for Linear Transforms Using Butterfly Factorizations</title>
-      <link>https://example.com/publication/icml19/</link>
+      <link>https://maeichho.github.io/publication/icml19/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/icml19/</guid>
+      <guid>https://maeichho.github.io/publication/icml19/</guid>
       <description></description>
     </item>
     

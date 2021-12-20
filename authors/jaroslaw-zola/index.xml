@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jaroslaw Zola | Academic</title>
-    <link>https://example.com/authors/jaroslaw-zola/</link>
-      <atom:link href="https://example.com/authors/jaroslaw-zola/index.xml" rel="self" type="application/rss+xml" />
+    <title>Jaroslaw Zola | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/authors/jaroslaw-zola/</link>
+      <atom:link href="https://maeichho.github.io/authors/jaroslaw-zola/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaroslaw Zola</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>Jaroslaw Zola</title>
-      <link>https://example.com/authors/jaroslaw-zola/</link>
+      <link>https://maeichho.github.io/authors/jaroslaw-zola/</link>
     </image>
     
     <item>
       <title>Fast Counting in Machine Learning Applications</title>
-      <link>https://example.com/publication/uai18/</link>
+      <link>https://maeichho.github.io/publication/uai18/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/uai18/</guid>
+      <guid>https://maeichho.github.io/publication/uai18/</guid>
       <description></description>
     </item>
     
