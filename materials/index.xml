@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Materials | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/materials/</link>
+      <atom:link href="https://maeichho.github.io/materials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Materials</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
+      <title>Materials</title>
+      <link>https://maeichho.github.io/materials/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://maeichho.github.io/materials/cs2800/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/materials/cs2800/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maeichho.github.io/materials/math1106/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/materials/math1106/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maeichho.github.io/materials/math2210/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/materials/math2210/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course Materials</title>
+      <link>https://maeichho.github.io/materials/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/materials/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
