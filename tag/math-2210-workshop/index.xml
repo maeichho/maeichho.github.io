@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATH 2210 Workshop | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/tag/math-2210-workshop/</link>
+      <atom:link href="https://maeichho.github.io/tag/math-2210-workshop/index.xml" rel="self" type="application/rss+xml" />
+    <description>MATH 2210 Workshop</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
+      <title>MATH 2210 Workshop</title>
+      <link>https://maeichho.github.io/tag/math-2210-workshop/</link>
+    </image>
+    
+    <item>
+      <title>1: Balancing Chemical Reactions (Sec. 1.3)</title>
+      <link>https://maeichho.github.io/publication/materials/math2210/reaction/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/materials/math2210/reaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2: The Area of Polygons (Sec. 3.1)</title>
+      <link>https://maeichho.github.io/publication/materials/math2210/area/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/materials/math2210/area/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3: Hamming Codes (Sec. 5.4)</title>
+      <link>https://maeichho.github.io/publication/materials/math2210/hamming/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/materials/math2210/hamming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4: Best Fit Curves (Sec. 5.6)</title>
+      <link>https://maeichho.github.io/publication/materials/math2210/fitting/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/materials/math2210/fitting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5: Group Representations (Sec. 6.2)</title>
+      <link>https://maeichho.github.io/publication/materials/math2210/representation/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/materials/math2210/representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6: An Algebraic Integration Technique (Sec. 6.4)</title>
+      <link>https://maeichho.github.io/publication/materials/math2210/integrate/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/materials/math2210/integrate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
