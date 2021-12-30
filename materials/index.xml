@@ -13,14 +13,6 @@
     </image>
     
     <item>
-      <title></title>
-      <link>https://maeichho.github.io/materials/math1106/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maeichho.github.io/materials/math1106/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Course Materials</title>
       <link>https://maeichho.github.io/materials/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,10 +21,18 @@
     </item>
     
     <item>
-      <title>Math 2210</title>
+      <title>CS 2800</title>
       <link>https://maeichho.github.io/materials/cs2800/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maeichho.github.io/materials/cs2800/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math 1106</title>
+      <link>https://maeichho.github.io/materials/math1106/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/materials/math1106/</guid>
       <description></description>
     </item>
     
