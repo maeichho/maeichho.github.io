@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="Graduate Student" />
+  <meta name="description" content="We propose unbiased estimators for the total treatment effect in settings with network interference. We use a low-degree assumption on the potential outcomes to establish bounds on the variance of our estimators. In settings where the network is unknown, we leverage a staggered rollout experimental design. Beyond our formal guarantees, our estimators are shown to work well in our experiments on simulated data." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://maeichho.github.io/authors/megan-leszczynski/" />
+  <link rel="alternate" hreflang="en-us" href="https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/" />
 
   
   
@@ -271,8 +271,6 @@
   
 
   
-    <link rel="alternate" href="/authors/megan-leszczynski/index.xml" type="application/rss+xml" title="Matthew Eichhorn" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -281,7 +279,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://maeichho.github.io/authors/megan-leszczynski/" />
+  <link rel="canonical" href="https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/" />
 
   
   
@@ -304,14 +302,18 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Matthew Eichhorn" />
-  <meta property="og:url" content="https://maeichho.github.io/authors/megan-leszczynski/" />
-  <meta property="og:title" content="Megan Leszczynski | Matthew Eichhorn" />
-  <meta property="og:description" content="Graduate Student" /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/" />
+  <meta property="og:title" content="Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown | Matthew Eichhorn" />
+  <meta property="og:description" content="We propose unbiased estimators for the total treatment effect in settings with network interference. We use a low-degree assumption on the potential outcomes to establish bounds on the variance of our estimators. In settings where the network is unknown, we leverage a staggered rollout experimental design. Beyond our formal guarantees, our estimators are shown to work well in our experiments on simulated data." /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2020-04-26T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2022-07-28T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2022-05-23T00:00:00&#43;00:00">
   
 
   
@@ -319,6 +321,53 @@
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/"
+  },
+  "name": "Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown",
+  
+  "location": {
+    "@type": "Place",
+    "name": "UC Berkeley",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2121 Berkeley Way West",
+      "addressLocality": "Berkeley",
+      "postalCode": "94704",
+      "addressRegion": "CA",
+      "addressCountry": "United States"
+    }
+    
+  },
+  
+  
+  "startDate": "2022-05-23T00:00:00Z",
+  
+  "endDate": "2022-05-25T00:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Mayleen Cortez"
+  },
+  
+  "description": "We propose unbiased estimators for the total treatment effect in settings with network interference. We use a low-degree assumption on the potential outcomes to establish bounds on the variance of our estimators. In settings where the network is unknown, we leverage a staggered rollout experimental design. Beyond our formal guarantees, our estimators are shown to work well in our experiments on simulated data."
+}
+</script>
+
+  
+
+  
 
   
 
@@ -326,11 +375,11 @@
 
 
 
-  <title>Megan Leszczynski | Matthew Eichhorn</title>
+  <title>Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown | Matthew Eichhorn</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a46fbf2a6321591dba64d0d1ff09b123" >
 
   
   
@@ -691,36 +740,331 @@
   </div>
 
   <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/mayleen-cortez/">Mayleen Cortez</a></span>, <span >
+      <a href="/authors/matthew-eichhorn/">Matthew Eichhorn</a></span>, <span >
+      <a href="/authors/christina-lee-yu/">Christina Lee Yu</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
     
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Megan Leszczynski</h1>
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/slides.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Randomized experiments are widely used to estimate causal effects of proposed treatments in domains spanning the physical and biological sciences, social sciences, engineering, medicine and health, as well as in public service domains and the technology industry. However, classical approaches to experimental design rely on critical independence assumptions that are violated when the outcome of an individual may be affected by the treatment of another individual, referred to as network interference. This interference introduces computational and statistical challenges to causal inference. Our work focuses on estimating the Total Treatment Effect, informally described by the difference in average outcomes across the population when everyone versus no one is treated. We present a new hierarchy of low-degree polynomial potential outcomes models and unbiased estimators that enable statistically efficient and computationally simple solutions. When the network is completely unknown, we provide a simple estimator along with a staggered rollout randomized design which is unbiased and has low variance. To our knowledge, we are the first to propose a statistically grounded solution for the case where the underlying network is completely unknown. We evaluate the finite-sample performance of our proposed estimators relative to existing estimators on simulated data. Our proposed estimator has reduced mean squared error relative to previous approaches when the network is complex or unknown, or when the network interference effects are fully heterogeneous or nonlinear. Our approach also extends to other estimands and to settings beyond neighborhood interference.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            May 23, 2022 12:00 AM &mdash; May 25, 2022 12:00 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://ctml.berkeley.edu/american-causal-inference-conference-2022" target="_blank" rel="noopener">
+            American Causal Inference Conference (2022)
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/iclr20/">Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">UC Berkeley</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">2121 Berkeley Way West, Berkeley, CA 94704</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/&amp;text=Simple%20yet%20Efficient%20Estimators%20for%20Network%20Causal%20Inference%20Even%20When%20the%20Network%20is%20Unknown" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/&amp;t=Simple%20yet%20Efficient%20Estimators%20for%20Network%20Causal%20Inference%20Even%20When%20the%20Network%20is%20Unknown" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Simple%20yet%20Efficient%20Estimators%20for%20Network%20Causal%20Inference%20Even%20When%20the%20Network%20is%20Unknown&amp;body=https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/&amp;title=Simple%20yet%20Efficient%20Estimators%20for%20Network%20Causal%20Inference%20Even%20When%20the%20Network%20is%20Unknown" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Simple%20yet%20Efficient%20Estimators%20for%20Network%20Causal%20Inference%20Even%20When%20the%20Network%20is%20Unknown%20https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/&amp;title=Simple%20yet%20Efficient%20Estimators%20for%20Network%20Causal%20Inference%20Even%20When%20the%20Network%20is%20Unknown" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
   </div>
-</section>
+</div>
   </div>
 
   <div class="page-footer">

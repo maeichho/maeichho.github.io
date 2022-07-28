@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Siddhartha Banerjee | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/authors/siddhartha-banerjee/</link>
+      <atom:link href="https://maeichho.github.io/authors/siddhartha-banerjee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Siddhartha Banerjee</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
+      <title>Siddhartha Banerjee</title>
+      <link>https://maeichho.github.io/authors/siddhartha-banerjee/</link>
+    </image>
+    
+    <item>
+      <title>Mind your Ps and Qs: Allocation with Priorities and Quotas</title>
+      <link>https://maeichho.github.io/talk/mind-your-ps-and-qs-allocation-with-priorities-and-quotas/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/talk/mind-your-ps-and-qs-allocation-with-priorities-and-quotas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
