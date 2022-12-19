@@ -5,7 +5,7 @@
     <link>https://maeichho.github.io/</link>
       <atom:link href="https://maeichho.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Matthew Eichhorn</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>Matthew Eichhorn</title>
@@ -13,9 +13,33 @@
     </image>
     
     <item>
+      <title>Online Team Formation Under Different Synergies</title>
+      <link>https://maeichho.github.io/publication/wine22/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/wine22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staggered Rollout Designs Enable Causal Inference under Interference without Network Knowledge</title>
+      <link>https://maeichho.github.io/publication/neurips22/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/neurips22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Algorithmic Landscape of Priority-Respecting Allocations</title>
+      <link>https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/</link>
+      <pubDate>Tue, 18 Oct 2022 12:30:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mind your Ps and Qs: Allocation with Priorities and Quotas</title>
       <link>https://maeichho.github.io/talk/mind-your-ps-and-qs-allocation-with-priorities-and-quotas/</link>
-      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jun 2022 10:45:00 +0000</pubDate>
       <guid>https://maeichho.github.io/talk/mind-your-ps-and-qs-allocation-with-priorities-and-quotas/</guid>
       <description></description>
     </item>
@@ -23,7 +47,7 @@
     <item>
       <title>Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown</title>
       <link>https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/</link>
-      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 May 2022 14:50:00 +0000</pubDate>
       <guid>https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/</guid>
       <description></description>
     </item>

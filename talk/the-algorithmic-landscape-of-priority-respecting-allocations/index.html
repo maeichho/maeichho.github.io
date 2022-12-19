@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="Graduate Student" />
+  <meta name="description" content="We consider the problem of finding Pareto efficient allocations that adhere to quota, eligibility, and priority constraints. We characterize this as a weighted bipartite matching problem with carefully chosen weights. This flexible formulation allows us to consider many problem extensions. We present three such extentions; for each we exhibit a clear dichotomy in which one possible extension is handled by a straightforward modification of our algorithm while a closely related extension is NP-hard." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://maeichho.github.io/authors/megan-leszczynski/" />
+  <link rel="alternate" hreflang="en-us" href="https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/" />
 
   
   
@@ -271,8 +271,6 @@
   
 
   
-    <link rel="alternate" href="/authors/megan-leszczynski/index.xml" type="application/rss+xml" title="Matthew Eichhorn" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -281,7 +279,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://maeichho.github.io/authors/megan-leszczynski/" />
+  <link rel="canonical" href="https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/" />
 
   
   
@@ -304,14 +302,18 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Matthew Eichhorn" />
-  <meta property="og:url" content="https://maeichho.github.io/authors/megan-leszczynski/" />
-  <meta property="og:title" content="Megan Leszczynski | Matthew Eichhorn" />
-  <meta property="og:description" content="Graduate Student" /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/" />
+  <meta property="og:title" content="The Algorithmic Landscape of Priority-Respecting Allocations | Matthew Eichhorn" />
+  <meta property="og:description" content="We consider the problem of finding Pareto efficient allocations that adhere to quota, eligibility, and priority constraints. We characterize this as a weighted bipartite matching problem with carefully chosen weights. This flexible formulation allows us to consider many problem extensions. We present three such extentions; for each we exhibit a clear dichotomy in which one possible extension is handled by a straightforward modification of our algorithm while a closely related extension is NP-hard." /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2020-04-26T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2022-10-18T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2022-10-18T12:30:00&#43;00:00">
   
 
   
@@ -319,6 +321,51 @@
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/"
+  },
+  "name": "The Algorithmic Landscape of Priority-Respecting Allocations",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Indianapolis Convention Center",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "100 S Capitol Ave",
+      "addressLocality": "Indianapolis",
+      "postalCode": "46225",
+      "addressRegion": "IN",
+      "addressCountry": "United States"
+    }
+    
+  },
+  
+  
+  "startDate": "2022-10-18T12:30:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Matthew Eichhorn"
+  },
+  
+  "description": "We consider the problem of finding Pareto efficient allocations that adhere to quota, eligibility, and priority constraints. We characterize this as a weighted bipartite matching problem with carefully chosen weights. This flexible formulation allows us to consider many problem extensions. We present three such extentions; for each we exhibit a clear dichotomy in which one possible extension is handled by a straightforward modification of our algorithm while a closely related extension is NP-hard."
+}
+</script>
+
+  
+
+  
 
   
 
@@ -326,11 +373,11 @@
 
 
 
-  <title>Megan Leszczynski | Matthew Eichhorn</title>
+  <title>The Algorithmic Landscape of Priority-Respecting Allocations | Matthew Eichhorn</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="52c46ccd70e4bf7b44a1a261cc42d099" >
 
   
   
@@ -691,36 +738,362 @@
   </div>
 
   <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>The Algorithmic Landscape of Priority-Respecting Allocations</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/matthew-eichhorn/">Matthew Eichhorn</a></span>, <span >
+      <a href="/authors/siddhartha-banerjee/">Siddhartha Banerjee</a></span>, <span >
+      <a href="/authors/david-kempe/">David Kempe</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
     
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Megan Leszczynski</h1>
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/talk/the-algorithmic-landscape-of-priority-respecting-allocations/slides.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/talk/the-algorithmic-landscape-of-priority-respecting-allocations/paper.pdf" >
+    PDF</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2204.13019" target="_blank" rel="noopener">
+    arXiv</a>
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+      <h3>Abstract</h3>
+      <p class="pub-abstract">In applications from rationing medical care to university admissions, the decision of who is allocated is justified by various normative criteria. Such settings motivate the following priority-respecting allocation problem: several categories wish to allocate their quota of interchangeable items to a set of agents. The goal is to find a Pareto efficient allocation that respects quotas and adheres to eligibility and priority requirements stipulated by the categories. We exhibit a bijection between such allocations and maximum-weight matchings under carefully chosen weights. This clean characterization recovers known results in this space and demonstrates that the problem straddles a fine line of computational efficiency. Some extensions of priority-respecting allocation are handled by specializations of our algorithm, while related extensions are NP-hard.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Oct 18, 2022 12:30 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://meetings.informs.org/wordpress/indianapolis2022/" target="_blank" rel="noopener">
+            INFORMS Annual Meeting (2022)
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/iclr20/">Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Indianapolis Convention Center</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">100 S Capitol Ave, Indianapolis, IN 46225</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/&amp;text=The%20Algorithmic%20Landscape%20of%20Priority-Respecting%20Allocations" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/&amp;t=The%20Algorithmic%20Landscape%20of%20Priority-Respecting%20Allocations" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20Algorithmic%20Landscape%20of%20Priority-Respecting%20Allocations&amp;body=https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/&amp;title=The%20Algorithmic%20Landscape%20of%20Priority-Respecting%20Allocations" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=The%20Algorithmic%20Landscape%20of%20Priority-Respecting%20Allocations%20https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://maeichho.github.io/talk/the-algorithmic-landscape-of-priority-respecting-allocations/&amp;title=The%20Algorithmic%20Landscape%20of%20Priority-Respecting%20Allocations" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
   </div>
-</section>
+</div>
   </div>
 
   <div class="page-footer">

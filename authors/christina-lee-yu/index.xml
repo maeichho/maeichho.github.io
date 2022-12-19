@@ -5,7 +5,7 @@
     <link>https://maeichho.github.io/authors/christina-lee-yu/</link>
       <atom:link href="https://maeichho.github.io/authors/christina-lee-yu/index.xml" rel="self" type="application/rss+xml" />
     <description>Christina Lee Yu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>Christina Lee Yu</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Staggered Rollout Designs Enable Causal Inference under Interference without Network Knowledge</title>
+      <link>https://maeichho.github.io/publication/neurips22/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/neurips22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown</title>
       <link>https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/</link>
-      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 May 2022 14:50:00 +0000</pubDate>
       <guid>https://maeichho.github.io/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/</guid>
       <description></description>
     </item>
