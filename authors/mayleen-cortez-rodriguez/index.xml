@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mayleen Cortez-Rodriguez | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/authors/mayleen-cortez-rodriguez/</link>
+      <atom:link href="https://maeichho.github.io/authors/mayleen-cortez-rodriguez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mayleen Cortez-Rodriguez</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
+      <title>Mayleen Cortez-Rodriguez</title>
+      <link>https://maeichho.github.io/authors/mayleen-cortez-rodriguez/</link>
+    </image>
+    
+    <item>
+      <title>Exploiting Neighborhood Interference with Low Order Interactions under Unit Randomized Design</title>
+      <link>https://maeichho.github.io/publication/jci23/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/jci23/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,28 @@
     <link>https://maeichho.github.io/publication/</link>
       <atom:link href="https://maeichho.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://maeichho.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Allocating with Priorities and Quotas: Algorithms, Complexity, and Dynamics</title>
+      <link>https://maeichho.github.io/publication/ec23/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/ec23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Neighborhood Interference with Low Order Interactions under Unit Randomized Design</title>
+      <link>https://maeichho.github.io/publication/jci23/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/jci23/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Team Formation Under Different Synergies</title>
