@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal Article | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/publication_types/journal-article/</link>
+      <atom:link href="https://maeichho.github.io/publication_types/journal-article/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal Article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maeichho.github.io/media/icon_hu12495277344496374156.png</url>
+      <title>Journal Article</title>
+      <link>https://maeichho.github.io/publication_types/journal-article/</link>
+    </image>
+    
+    <item>
+      <title>Exploiting Neighborhood Interference with Low Order Interactions under Unit Randomized Design</title>
+      <link>https://maeichho.github.io/publication/jci23/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/jci23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Survey of Selected Common Plant Species in Thai Homegardens Using Google Street View Imagery and a Deep Neural Network</title>
+      <link>https://maeichho.github.io/publication/esi21/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/esi21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

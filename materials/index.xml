@@ -5,9 +5,9 @@
     <link>https://maeichho.github.io/materials/</link>
       <atom:link href="https://maeichho.github.io/materials/index.xml" rel="self" type="application/rss+xml" />
     <description>Materials</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png</url>
+      <url>https://maeichho.github.io/media/icon_hu12495277344496374156.png</url>
       <title>Materials</title>
       <link>https://maeichho.github.io/materials/</link>
     </image>
@@ -17,11 +17,39 @@
       <link>https://maeichho.github.io/materials/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maeichho.github.io/materials/about/</guid>
-      <description></description>
+      <description>&lt;p style=&#39;text-align: justify;&#39;&gt;
+I am passionate about active instruction and love to design worksheets and activities that help students engage with the course material. Good class activities should help to reinforce concepts and techniques from the lecture and reading, while also providing students with interesting examples that place the material in context and motivate further exploration. I learn best when I can connect new ideas with other things that I have studied or real-world problems with which I am familiar. I have tried to establish these conenctions in many of the worksheets. Beyond this, I enjoy tinkering around in $\LaTeX$, so have tried to typeset the activities in a beautiful, inviting, and professional manner. 
+&lt;p&gt;I have included worksheets from three courses that I have helped to develop:&lt;/p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;../math1106/&#34;&gt;MATH 1106&lt;/a&gt;: Modeling with Calculus for the Life Sciences&lt;/p&gt;
+ &lt;p style=&#39;text-align: justify;&#39;&gt; An introductory course intended for students in the biological and social sciences. This course explore the fundamentals of modeling a dynamical system with a system of differential equations and using tools from calculus and numerical analysis to understand the behaviors of these systems, both qualitatively and quantitatively. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;  
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;../math2210/&#34;&gt;MATH 2210&lt;/a&gt;: Linear Algebra&lt;/p&gt;
+ &lt;p style=&#39;text-align: justify;&#39;&gt; One of Cornell&#39;s linear algebra courses, intended for math majors. It covers the basics of linear algebra (vector spaces, linear transformations, bases, engenvalues, determinants, etc.) and introduces students to formal proofs. Class activities present many applications. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;../cs2800/&#34;&gt;CS 2800&lt;/a&gt;: Discrete Structures&lt;/p&gt;
+ &lt;p style=&#39;text-align: justify;&#39;&gt; An introduction to discrete mathematics for computer science majors. Students learn how to write formal proofs while studying topics including logic, sets and functions, number theory, combinatorics, probability, and finite automata. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p style=&#39;text-align: justify;&#39;&gt;
+Please feel free to reach out to me if you have questions or suggestions about these materials. If you are interested in using these activities, either directly or with modification, let me know. I&#39;m happy to provide the source code, instructor guides, and typeset solutions (where available). 
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>CS 2800</title>
+      <title></title>
       <link>https://maeichho.github.io/materials/cs2800/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maeichho.github.io/materials/cs2800/</guid>
@@ -29,7 +57,7 @@
     </item>
     
     <item>
-      <title>Math 1106</title>
+      <title></title>
       <link>https://maeichho.github.io/materials/math1106/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maeichho.github.io/materials/math1106/</guid>
@@ -37,7 +65,7 @@
     </item>
     
     <item>
-      <title>Math 2210</title>
+      <title></title>
       <link>https://maeichho.github.io/materials/math2210/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maeichho.github.io/materials/math2210/</guid>

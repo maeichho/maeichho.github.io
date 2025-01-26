@@ -1,15 +1,13 @@
-<!DOCTYPE html><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: January 26, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -22,25 +20,8 @@
 
 
 
-  
 
 
-
-
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
 
   
   
@@ -60,7 +41,7 @@
   
     
   
-  <meta name="description" content="Graduate Student" />
+  <meta name="description" content="Matthew Eichhorn" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://maeichho.github.io/" />
@@ -68,230 +49,119 @@
   
   
   
-    <meta name="theme-color" content="#b31b1b" />
+  
+    
+    <link rel="stylesheet" href="/css/themes/carnellian.min.css" />
   
 
   
   
     
-    <script src="/js/mathjax-config.js"></script>
-  
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
-
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
-      
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
   
 
   
   
   
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.dba6bb502c82d02e25dfc687c29b1272.css" />
 
   
 
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
-
-  
-
-  
-
-
-
-
-  
-  
-  
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-
   
     <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Matthew Eichhorn" />
   
 
   
-    <link rel="manifest" href="/manifest.webmanifest" />
-  
-
-  <link rel="icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu12980474893571393961.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu7044673224883452508.png" />
 
   <link rel="canonical" href="https://maeichho.github.io/" />
 
@@ -318,11 +188,11 @@
   <meta property="og:site_name" content="Matthew Eichhorn" />
   <meta property="og:url" content="https://maeichho.github.io/" />
   <meta property="og:title" content="Matthew Eichhorn" />
-  <meta property="og:description" content="Graduate Student" /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Matthew Eichhorn" /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu12495277344496374156.png" />
+    <meta property="twitter:image" content="https://maeichho.github.io/media/icon_hu12495277344496374156.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2023-08-04T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2025-01-26T00:00:00&#43;00:00" />
     
   
 
@@ -331,1953 +201,2237 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://maeichho.github.io/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://maeichho.github.io/"
+  "@type": "WebSite","url": "https://maeichho.github.io/"
 }
 </script>
 
 
   
 
-  
-
-  
-
-
-
-
 
   <title>Matthew Eichhorn</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
       
       
-
       
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
         
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header">
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Matthew Eichhorn">
+        Matthew Eichhorn
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
     
 
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#about"
+        >About Me</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#publications"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#teaching"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/materials/about/"
+        >Course Materials</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/resume.pdf"
+        >CV</a
+        >
+      </li>
+      
+      
+      
+    </ul>
 
-
-
-
-
-
-
-
-
-
-
-<header class="header--fixed">
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Matthew Eichhorn</a>
+      
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
       
 
       
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Matthew Eichhorn</a>
-      </div>
       
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about" data-target="#about"><span>About Me</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#teaching" data-target="#teaching"><span>Teaching</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/materials/about/"><span>Course Materials</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/uploads/cv.pdf"><span>CV</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-        
-
-        
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
-        
-
-        
-        
-
-      </ul>
-
     </div>
   </nav>
 </header>
 
 
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about" class="relative hbb-section blox-resume-biography-3  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+
+  
+  
+
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
+
+    <div class="avatar-wrapper mt-10">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/matthew-eichhorn/avatar_hu14718847272939497873.jpg" alt="Matthew Eichhorn"
+           width="150" height="150">
+      
+    </div>
+    
+
+    <div class="portrait-title dark:text-white">
+
+      <div class="text-3xl font-bold mb-2 mt-6">Matthew Eichhorn</div>
+
+      <h3 class="font-semibold mb-1">Lecturer</h3>
+
+      
+      <div class="mb-2">
+        <a href="https://www.cs.cornell.edu/" target="_blank" rel="noopener">
+        <div>Department of Computer Science</div>
+        </a>
+      </div>
+      
+      <div class="mb-2">
+        <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
+        <div>Cornell University</div>
+        </a>
+      </div>
+      
+    </div>
+
+    <ul class="network-icon dark:text-zinc-100">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a href="mailto:meichhorn@cornell.edu"  aria-label="envelope"
+            data-toggle="tooltip" data-placement="top" title="E-mail Me">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=13yqSuIAAAAJ" target="_blank" rel="noopener" aria-label="academicons/google-scholar"
+            data-toggle="tooltip" data-placement="top" title="Google Scholar">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://www.linkedin.com/in/matthew-eichhorn" target="_blank" rel="noopener" aria-label="brands/linkedin"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+        
+      
+      <li>
+        <a href="/resume.pdf" target="_blank" rel="noopener" aria-label="academicons/cv"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M249.18 328.324c-9.788 15.384-19.179 30.434-40.222 45.055c-11.256 7.89-37.164 23.306-73.99 23.306C64.709 396.685 8 345.605 8 255.801c0-78.486 53.345-140.486 128.466-140.486c30.434 0 57.474 10.521 77.387 26.304c18.414 14.65 27.038 29.304 34.563 42.456l-52.58 26.273c-3.762-8.626-8.29-17.649-19.913-27.406c-12.784-10.155-25.54-13.152-36.46-13.152c-42.821 0-65.364 39.825-65.364 84.145c0 58.238 29.7 87.143 65.364 87.143c34.563 0 48.48-24.042 57.474-39.426l52.243 26.673zm184.194-204.75H504l-92.037 265.22h-67.597l-90.904-265.22h70.625l54.843 188.6z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
   </div>
 
-  <div class="page-body">
+  <div class="flex-auto max-w-prose md:mt-12">
     
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <h2 id="about-me">About Me</h2>
+<p>I am a lecturer in Cornell&rsquo;s Computer Science, where I teach large undergraduate courses on discrete mathematics and programming. I have a passion for teaching and curricular development. You can find some materials that I developed for the Cornell Math Department&rsquo;s Active Learning Initiative and the Cornell Engineering Academic Excellence Workshops linked on this site. I plan to update it soon to include more of my course materials. I completed my PhD in the Cornell Center for Applied Mathematics, where I was advised by <a href="https://sidbanerjee.orie.cornell.edu/" target="_blank" rel="noopener">Siddhartha Banerjee</a> and <a href="https://cleeyu.orie.cornell.edu/" target="_blank" rel="noopener">Christina Lee Yu</a>. Outside of academia, I am a fan of games and puzzles (in particular, the New York Times crosswords). I also enjoy cooking and baking. Finally, as a Buffalo native, I am a devoted Bills fan!</p>
 
-
-
-
-
-
-
-
-
-
-
-  
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="about" class="home-section wg-about  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle"
-           width="270" height="270"
-           src="/authors/maeichho/avatar_hu76f286a328c2836c9fe78f96e5eb3743_1171721_270x270_fill_q75_lanczos_center.jpg" alt="Matthew Eichhorn">
-      
-
-      <div class="portrait-title">
-        <h2>Matthew Eichhorn</h2>
-        <h3>Graduate Student</h3>
-
-        
-        <h3>
-          <a href="https://cam.cornell.edu/" target="_blank" rel="noopener">
-          <span>Center for Applied Mathematics, Cornell University</span>
-          </a>
-        </h3>
-        
       </div>
+    </div>
+    
 
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
+    
+
+
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
         
         <li>
-          <a href="mailto:mae226@cornell.edu"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
+          Causal Inference
         </li>
         
-        
-        
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://scholar.google.com/citations?user=13yqSuIAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
+          Online Algorithms
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://www.linkedin.com/in/matthew-eichhorn" target="_blank" rel="noopener" aria-label="linkedin">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
+          Mechanism Design
         </li>
         
-        
-        
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="/uploads/resume.pdf"  aria-label="cv">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
+          Combinatorics
         </li>
         
       </ul>
-
     </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
     
 
-    <div class="article-style">
-      <p style='text-align: justify;'>
-I am a fifth-year PhD student in the Center for Applied Mathematics at Cornell University, where I am advised by <a href="https://people.orie.cornell.edu/sbanerjee/">Siddhartha Banerjee</a>. My current research mainly falls into two focal areas. First, I am interested in the design of online algorithms for combinatorial problems, particularly with applications to game theory. Second, I am eager to develop better estimators for causal effects in settings with network interference. In addition, I have a passion for teaching and curricular development. I have helped to develop undergraduate course materials for the Cornell Math Department's Active Learning Initiative, Cornell Engineering's Academic Excellence Workshops, and Cornell's Computer Science department. Beyond academia, I am interested in cooking, baking, and origami, and I am a devoted fan of the Buffalo Bills. 
-</p>
-
-    </div>
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <div class="section-subheading">Interests</div>
-        <ul class="ul-interests mb-0">
-          
-          <li>Algorithm Design and Analysis</li>
-          
-          <li>Game Theory</li>
-          
-          <li>Algebra</li>
-          
-          <li>Combinatorics</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <div class="section-subheading">Education</div>
-        <ul class="ul-edu fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Applied Mathematics, 2024 (anticipated)</p>
-              <p class="institution">Cornell University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Masters of Science, 2022</p>
-              <p class="institution">Cornell University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Bachelors of Science in Mathematics and Computer Science, 2019</p>
-              <p class="institution">University at Buffalo</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-
     
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="publications" class="home-section wg-pages  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
         
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Publications</h1>
-            
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">PhD in Applied Mathematics</p>
+            <p class="text-sm">Cornell University</p>
           </div>
+        </li>
         
-      
-    
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/mayleen-cortez-rodriguez/">Mayleen Cortez-Rodriguez</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/christina-lee-yu/">Christina Lee Yu</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    August 2023
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>JCI</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/jci23/" >Exploiting Neighborhood Interference with Low Order Interactions under Unit Randomized Design</a>
-  </div>
-
-  
-  <a href="/publication/jci23/"  class="summary-link">
-    <div class="article-style">
-      <p>We consider estimating the total treatment effect (TTE) causal estimand in a setting with network interference. To model this interference, we introduce a potential outcomes framework where individuals receive additive effects for each sufficiently small subset of their neithborhood that is entirely exposed to a treatment. In this setting, we develop an unbiased estimator for TTE and reason about its variance. We validate our approach using experiments on simulated data.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/siddhartha-banerjee/">Siddhartha Banerjee</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/david-kempe/">David Kempe</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    July 2023
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>EC</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/ec23/" >Allocating with Priorities and Quotas: Algorithms, Complexity, and Dynamics</a>
-  </div>
-
-  
-  <a href="/publication/ec23/"  class="summary-link">
-    <div class="article-style">
-      <p>We consider a setting where resource units are allocated to unit demand agents through reserved categories. Valid allocations must respect quotas, eligibility requirements, and priority constraints in each category and be Pareto efficient. We give a characterization of all valid allocations as solutions to a family of LPs. We use this characterization to study the complexity of many related problems and to give a constant-loss algorithm for an online variant.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/siddhartha-banerjee/">Siddhartha Banerjee</a></span>, <span >
-      <a href="/authors/david-kempe/">David Kempe</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    December 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>WINE</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/wine22/" >Online Team Formation Under Different Synergies</a>
-  </div>
-
-  
-  <a href="/publication/wine22/"  class="summary-link">
-    <div class="article-style">
-      <p>We consider a setting where a principal must pair agents into teams. The success of teams is based on the synergy of their members&rsquo; types, which are initially unknown and must be inferred by the team performance. We describe team formation policies that achieve near-minimal regret guarantees for different choices of synergy functions.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/mayleen-cortez/">Mayleen Cortez</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/christina-lee-yu/">Christina Lee Yu</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    November 2022
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>NeurIPS</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/neurips22/" >Staggered Rollout Designs Enable Causal Inference under Interference without Network Knowledge</a>
-  </div>
-
-  
-  <a href="/publication/neurips22/"  class="summary-link">
-    <div class="article-style">
-      <p>We consider estimating the total treatment effect (TTE) in a population with network inteference. The low-order interaction structure of our potential outcomes model allows us to recast this estmiation as a polynomial extrapolation problem. By utilizing a staggered rollout design, we can obtain an unbiased estimator for the TTE that does not require structural knowledge of the causal network.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/john-ringland/">John Ringland</a></span>, <span >
-      <a href="/authors/martha-bohm/">Martha Bohm</a></span>, <span >
-      <a href="/authors/so-ra-baek/">So-Ra Baek</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    January 2021
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>ESI</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/esi21/" >Automated Survey of Selected Common Plant Species in Thai Homegardens Using Google Street View Imagery and a Deep Neural Network</a>
-  </div>
-
-  
-  <a href="/publication/esi21/"  class="summary-link">
-    <div class="article-style">
-      <p>We demonstrate the feasibility of using the high-resolution street-level photographs in Google Street View and an object-detection network (RetinaNet) to create a large-scale high-resolution survey of the prevalence of at least six plant species widely grown in road-facing homegardens in Thailand.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/tri-dao/">Tri Dao</a></span>, <span >
-      <a href="/authors/nimit-s.-sohoni/">Nimit S. Sohoni</a></span>, <span >
-      <a href="/authors/albert-gu/">Albert Gu</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/amit-blonder/">Amit Blonder</a></span>, <span >
-      <a href="/authors/megan-leszczynski/">Megan Leszczynski</a></span>, <span >
-      <a href="/authors/atri-rudra/">Atri Rudra</a></span>, <span >
-      <a href="/authors/christopher-re/">Christopher Re</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    April 2020
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>ICLR</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/iclr20/" >Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</a>
-  </div>
-
-  
-  <a href="/publication/iclr20/"  class="summary-link">
-    <div class="article-style">
-      <p>We introduce a family of matrices that provably capture any structured matrix with near-optimal parameter and arithmetic operation complexity. We empirically validate that these matrices can be automatically learned within end-to-end pipelines to improve model quality.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/tri-dao/">Tri Dao</a></span>, <span >
-      <a href="/authors/albert-gu/">Albert Gu</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/atri-rudra/">Atri Rudra</a></span>, <span >
-      <a href="/authors/christopher-re/">Christopher Re</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    June 2019
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>ICML</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/icml19/" >Learning Fast Algorithms for Linear Transforms Using Butterfly Factorizations</a>
-  </div>
-
-  
-  <a href="/publication/icml19/"  class="summary-link">
-    <div class="article-style">
-      <p>We introduce a parameterization of divide-and-conquer methods that is capable of representing a large class of linear transforms. This generic formulation can automatically learn an efficient algorithm for many such transforms, including the FFT.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span >
-      <a href="/authors/subhadeep-karan/">Subhadeep Karan</a></span>, <span >
-      <a href="/authors/maeichho/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/blake-hurlburt/">Blake Hurlburt</a></span>, <span >
-      <a href="/authors/grant-iraci/">Grant Iraci</a></span>, <span >
-      <a href="/authors/jaroslaw-zola/">Jaroslaw Zola</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    August 2018
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>UAI</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/uai18/" >Fast Counting in Machine Learning Applications</a>
-  </div>
-
-  
-  <a href="/publication/uai18/"  class="summary-link">
-    <div class="article-style">
-      <p>We propose scalable methods to execute counting queries in machine learning applications.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="talks" class="home-section wg-pages  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Talks</h1>
-            
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">BS in Computer Science and Mathematics</p>
+            <p class="text-sm">University at Buffalo</p>
           </div>
+        </li>
         
-      
-    
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-  <div class="article-metadata">
-    
-    <div>
-      
-
-  <span >
-      <a href="/authors/matthew-eichhorn/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/siddhartha-banerjee/">Siddhartha Banerjee</a></span>, <span >
-      <a href="/authors/david-kempe/">David Kempe</a></span>
+      </ul>
     </div>
     
-    <span>
-      Oct 18, 2022 12:30 PM
-    </span>
-    
-    <span class="middot-divider"></span>
-    <span>Indianapolis Convention Center</span>
-    
+
   </div>
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/talk/the-algorithmic-landscape-of-priority-respecting-allocations/" >The Algorithmic Landscape of Priority-Respecting Allocations</a>
-  </div>
-
-  
-  <a href="/talk/the-algorithmic-landscape-of-priority-respecting-allocations/"  class="summary-link">
-    <div class="article-style">
-      <p>We consider the problem of finding Pareto efficient allocations that adhere to quota, eligibility, and priority constraints. We characterize this as a weighted bipartite matching problem with carefully chosen weights. This flexible formulation allows us to consider many problem extensions. We present three such extentions; for each we exhibit a clear dichotomy in which one possible extension is handled by a straightforward modification of our algorithm while a closely related extension is NP-hard.</p>
-    </div>
-  </a>
-  
-
-  
 
 </div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-  <div class="article-metadata">
-    
-    <div>
-      
-
-  <span >
-      <a href="/authors/siddhartha-banerjee/">Siddhartha Banerjee</a></span>, <span >
-      <a href="/authors/matthew-eichhorn/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/david-kempe/">David Kempe</a></span>
-    </div>
-    
-    <span>
-      Jun 6, 2022 10:45 AM
-    </span>
-    
-    <span class="middot-divider"></span>
-    <span>Harvard University CMSA</span>
-    
-  </div>
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/talk/mind-your-ps-and-qs-allocation-with-priorities-and-quotas/" >Mind your Ps and Qs: Allocation with Priorities and Quotas</a>
-  </div>
-
-  
-  <a href="/talk/mind-your-ps-and-qs-allocation-with-priorities-and-quotas/"  class="summary-link">
-    <div class="article-style">
-      <p>We consider the problem of finding Pareto efficient allocations that adhere to quota, eligibility, and priority constraints. We show that this problem can be encoded as a weighted bipartite matching problem with carefully chosen weights. This framework provides us the flexibility to enforce additional criteria in our selected allocations, including notions of fairness.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple view-card">
-
-  
-  <div class="article-metadata">
-    
-    <div>
-      
-
-  <span >
-      <a href="/authors/mayleen-cortez/">Mayleen Cortez</a></span>, <span >
-      <a href="/authors/matthew-eichhorn/">Matthew Eichhorn</a></span>, <span >
-      <a href="/authors/christina-lee-yu/">Christina Lee Yu</a></span>
-    </div>
-    
-    <span>
-      May 23, 2022 2:50 PM
-    </span>
-    
-    <span class="middot-divider"></span>
-    <span>UC Berkeley</span>
-    
-  </div>
-  
-
-  
-  
-  
-
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/" >Simple yet Efficient Estimators for Network Causal Inference Even When the Network is Unknown</a>
-  </div>
-
-  
-  <a href="/talk/simple-yet-efficient-estimators-for-network-causal-inference-even-when-the-network-is-unknown/"  class="summary-link">
-    <div class="article-style">
-      <p>We propose unbiased estimators for the total treatment effect in settings with network interference. We use a low-degree assumption on the potential outcomes to establish bounds on the variance of our estimators. In settings where the network is unknown, we leverage a staggered rollout experimental design. Beyond our formal guarantees, our estimators are shown to work well in our experiments on simulated data.</p>
-    </div>
-  </a>
-  
-
-  
-
-</div>
-
-  
-
-  
-  
-  
-
 </div>
 
 
+  
+
+  
+</section>
+
+  
+
+  
+  
     
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Research
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">My research focuses on the development of tools to make decisions with societal implications. This ranges from developing algorithms for online team formation, finding ways to fairly distribute goods in settings such as public health and education where the normative allocation criteria are often at odds, and using statistical tools from causal inference to estimate the effectiveness of an intervention that propogates through a social interference network. I seek to understand the combinatorial structure inherent in all of these problems so that I can leverage it to design better algorithms and estimators.</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="publications" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Publications
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  
+
+
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
+  <div class="grid gap-10 md:grid-cols-2 lg:gap-10">
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
       </div>
-    
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/jci23/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Exploiting Neighborhood Interference with Low Order Interactions under Unit Randomized Design
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/jci23/" >
+        We consider estimating the total treatment effect (TTE) causal estimand in a setting with network interference. To model this interference, we introduce a potential outcomes framework where individuals receive additive effects for each sufficiently small subset of their neithborhood that is entirely exposed to a treatment. In this setting, we develop an unbiased estimator for TTE and reason about its variance. We validate our approach using experiments on simulated data.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2023-08-04">Aug 4, 2023</time>
+        </div>
+      </div>
 
     </div>
-  </section>
+  </div>
+</div>
 
   
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="teaching" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Teaching Experience</h1>
-            
-          </div>
-        
-      
     
 
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
       
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/ec23/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Allocating with Priorities and Quotas: Algorithms, Complexity, and Dynamics
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/ec23/" >
+        We consider a setting where resource units are allocated to unit demand agents through reserved categories. Valid allocations must respect quotas, eligibility requirements, and priority constraints in each category and be Pareto efficient. We give a characterization of all valid allocations as solutions to a family of LPs. We use this characterization to study the complexity of many related problems and to give a constant-loss algorithm for an online variant.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2023-07-09">Jul 9, 2023</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
 
 
 
-  <div class="col-12 col-lg-8">
-    <p>In Fall 2022, I co-taught CS 2800: Discrete Structures with <a href="https://alexandrasilva.org/#/main.html">Alexandra Silva</a>.</p>
-<p>I will be teaching CS 2800 again this fall with <a href="https://www.noahsd.com/">Noah Stephens-Davidowitz</a>.</p>
-<p>In Summer 2023, I taught ENGRI 1101: Engineering Applications of Operations Research as part of Cornell&rsquo;s <a href="https://sce.cornell.edu/courses/roster/pssp">Pre-Collegiate Summer Scholars Program</a>.</p>
-<p>In addition, I have been a teaching assistant for the following courses:</p>
-<h2 id="cornell-university">Cornell University</h2>
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/wine22/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Online Team Formation Under Different Synergies
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/wine22/" >
+        We consider a setting where a principal must pair agents into teams. The success of teams is based on the synergy of their members&#39; types, which are initially unknown and must be inferred by the team performance. We describe team formation policies that achieve near-minimal regret guarantees for different choices of synergy functions.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2022-12-09">Dec 9, 2022</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/neurips22/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Staggered Rollout Designs Enable Causal Inference under Interference without Network Knowledge
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/neurips22/" >
+        We consider estimating the total treatment effect (TTE) in a population with network inteference. The low-order interaction structure of our potential outcomes model allows us to recast this estmiation as a polynomial extrapolation problem. By utilizing a staggered rollout design, we can obtain an unbiased estimator for the TTE that does not require structural knowledge of the causal network.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2022-11-28">Nov 28, 2022</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/esi21/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Automated Survey of Selected Common Plant Species in Thai Homegardens Using Google Street View Imagery and a Deep Neural Network
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/esi21/" >
+        We demonstrate the feasibility of using the high-resolution street-level photographs in Google Street View and an object-detection network (RetinaNet) to create a large-scale high-resolution survey of the prevalence of at least six plant species widely grown in road-facing homegardens in Thailand.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2021-01-02">Jan 2, 2021</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/iclr20/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/iclr20/" >
+        We introduce a family of matrices that provably capture any structured matrix with near-optimal parameter and arithmetic operation complexity. We empirically validate that these matrices can be automatically learned within end-to-end pipelines to improve model quality.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2020-04-26">Apr 26, 2020</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/icml19/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Learning Fast Algorithms for Linear Transforms Using Butterfly Factorizations
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/icml19/" >
+        We introduce a parameterization of divide-and-conquer methods that is capable of representing a large class of linear transforms. This generic formulation can automatically learn an efficient algorithm for many such transforms, including the FFT.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2019-06-09">Jun 9, 2019</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/publication/uai18/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Fast Counting in Machine Learning Applications
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/publication/uai18/" >
+        We propose scalable methods to execute counting queries in machine learning applications.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2018-08-06">Aug 6, 2018</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="talks" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Talks and Posters
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  <div class="mt-16 sm:mt-20 w-fit">
+  <div class="flex max-w-3xl flex-col space-y-16">
+
+
+  
+    
+
+
+
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/sinm24/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">Causal Inference under Low-Order Interference</span></a>
+    </h2>
+    <time
+      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
+      datetime="2024-06-17">
+      Jun 17, 2024
+    </time>
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Interference effects, where the treatment of one individual has an effect on the outcome of another, are pervasive in real-world settings but violate assumptions of many classical causal estimators. While the Horvitz-Thompson estimator can account for interference, it has prohibitively high variance. In this talk, we&rsquo;ll survey recent approaches to improve on this variance guarantee by imposing additional structural assumptions on the potential outcomes model or the interference network. Then, I&rsquo;ll introduce a class of estimators, pseudoinverse estimators, that can be adapted to any experimental design and have strong bias and variance guarantees. Finally, I&rsquo;ll show how theoretical bounds on the performance of the pseudoinverse estimator can provide practical advice when selecting an experimental design.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  <time
+    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
+    datetime="2024-06-17">Jun 17, 2024
+  </time>
+</article>
+
+  
+    
+
+
+
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/acic24b/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">Low-Order Outcomes and Clustered Designs: Combining Design and Analysis for Causal Inference under Interference</span></a>
+    </h2>
+    <time
+      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
+      datetime="2024-05-16">
+      May 16, 2024
+    </time>
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Poster</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  <time
+    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
+    datetime="2024-05-16">May 16, 2024
+  </time>
+</article>
+
+  
+    
+
+
+
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/acic24/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">Clustered Rollout Designs for Causal Inference with Network Interference</span></a>
+    </h2>
+    <time
+      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
+      datetime="2024-05-15">
+      May 15, 2024
+    </time>
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Poster</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  <time
+    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
+    datetime="2024-05-15">May 15, 2024
+  </time>
+</article>
+
+  
+    
+
+
+
+<article class="md:grid md:grid-cols-4 md:items-baseline">
+  <div class="md:col-span-3 group relative flex flex-col items-start">
+    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <div
+        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <a href="/event/informs23b/"><span
+        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">Low-Degree Outcomes and Clustered Designs: A Combined Approach for Causal Inference Under Interference</span></a>
+    </h2>
+    <time
+      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
+      datetime="2023-10-18">
+      Oct 18, 2023
+    </time>
+    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Recent work on causal inference under interference falls under two approaches, using structural assumptions on the interference effects to select a good randomized design or using structural assumptions on the potential outcomes to select a good estimator. In this work, we quantify the gains that can be made when these approaches are considered together, in particular by studying pseudoinverse estimators under cluster randomized designs.</p>
+    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+    Read more
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+  <time
+    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
+    datetime="2023-10-18">Oct 18, 2023
+  </time>
+</article>
+
+  
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+  
+  
+    
+  
+
+  
+
+  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+    <div class="mt-10 flex justify-center">
+      <a
+        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+        href="/event/">
+          <span>See all events</span>
+        </a>
+      </div>
+  </div>
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="teaching" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Teaching Experience
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>In Spring 2025, I am co-teaching <a href="https://www.cs.cornell.edu/courses/cs2110/2025sp/" target="_blank" rel="noopener">CS 2110</a>: <em>Object-Oriented Programming and Data Structures</em> with <a href="https://www.cs.cornell.edu/~curran/" target="_blank" rel="noopener">Curran Muhlberger</a>.</p>
+<p>In Fall 2024, I taught CS 2800, now called <em>Mathematical Foundations of Computing</em>.</p>
+<p>In Fall 2023, I co-taught CS 2800, previously called <em>Discrete Structures</em> with <a href="https://www.noahsd.com/" target="_blank" rel="noopener">Noah Stephens-Davidowitz</a>.</p>
+<p>In Summer 2023, I taught ENGRI 1101: <em>Engineering Applications of Operations Research</em> as part of Cornell&rsquo;s <a href="https://sce.cornell.edu/courses/roster/pssp" target="_blank" rel="noopener">Pre-Collegiate Summer Scholars Program</a>.</p>
+<p>In Fall 2022, I co-taught CS 2800 with <a href="%22https://alexandrasilva.org/#/main.html%22">Alexandra Silva</a>.</p>
+<br>
+In addition, I have been a teaching assistant for the following courses:
+<h3 id="cornell-university">Cornell University</h3>
 <ul>
 <li>CS 2111: Programming Practicum, Java (Spring 2022)</li>
 <li>CS 4820: Introduction to Analysis of Algorithms (Fall 2021)</li>
 <li>MATH 1106: Modeling with Calculus for the Life Sciences (Spring 2020, 2021)</li>
 </ul>
-<h2 id="university-at-buffalo">University at Buffalo</h2>
+<h3 id="university-at-buffalo">University at Buffalo</h3>
 <ul>
 <li>CSE 250: Data Structures in C++ (Spring 2017, 2018)</li>
 <li>CSE 191: Discrete Mathematics (Fall 2017)</li>
@@ -2285,49 +2439,67 @@ I am a fifth-year PhD student in the Center for Applied Mathematics at Cornell U
 <li>MTH 141: Introductory Calculus (Fall 2016)</li>
 </ul>
 <p>Finally, I have had positions through the Cornell Math Department&rsquo;s <a href="https://e.math.cornell.edu/sites/activelearn/" target="_blank" rel="noopener">Active Learning Initiative</a> and the Cornell Computer Science Department to develop <a href="materials/about/">course materials</a>.</p>
+</div>
+</div>
 
-  </div>
 
+  
 
+  
+</section>
 
-    
-      </div>
-    
+  
+
 
     </div>
-  </section>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
 
 
 
-  </div>
 
-  <div class="page-footer">
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by text-center">
+    © 2024 Matthew Eichhorn.
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by text-center">
     
     
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
     
       
       
@@ -2335,140 +2507,15 @@ I am a fifth-year PhD student in the Center for Applied Mathematics at Cornell U
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
-    
-  </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
 
     
-    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
-
-    
-    
-    
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
-      
-
-      
-      
-
-      
-
-      
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
-        
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
-        
-      
-
-    
-
-    
-    
-    
-
-    
-    
-
-    
-    
-    
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
-            </div>
-          </div>
-        </div>
-      </script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-      
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-      
-      
-      
-      
-      
-      
-      
-    
-
-    
-
-    
-    
-    
-    <script id="page-data" type="application/json">{"use_headroom":false}</script>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-    <script src="/en/js/wowchemy.min.f4140b8ec5a725451afc89ff5f0c8764.js"></script>
-
     
 
 
@@ -2476,5 +2523,10 @@ I am a fifth-year PhD student in the Center for Applied Mathematics at Cornell U
 
 
 
-</body>
+
+
+
+
+
+  </body>
 </html>

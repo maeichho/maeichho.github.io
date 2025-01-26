@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference Paper | Matthew Eichhorn</title>
+    <link>https://maeichho.github.io/publication_types/conference-paper/</link>
+      <atom:link href="https://maeichho.github.io/publication_types/conference-paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Conference Paper</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maeichho.github.io/media/icon_hu12495277344496374156.png</url>
+      <title>Conference Paper</title>
+      <link>https://maeichho.github.io/publication_types/conference-paper/</link>
+    </image>
+    
+    <item>
+      <title>Allocating with Priorities and Quotas: Algorithms, Complexity, and Dynamics</title>
+      <link>https://maeichho.github.io/publication/ec23/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/ec23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Team Formation Under Different Synergies</title>
+      <link>https://maeichho.github.io/publication/wine22/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/wine22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staggered Rollout Designs Enable Causal Inference under Interference without Network Knowledge</title>
+      <link>https://maeichho.github.io/publication/neurips22/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/neurips22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kaleidoscope: An Efficient, Learnable Representation for all Structured Linear Maps</title>
+      <link>https://maeichho.github.io/publication/iclr20/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/iclr20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Fast Algorithms for Linear Transforms Using Butterfly Factorizations</title>
+      <link>https://maeichho.github.io/publication/icml19/</link>
+      <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/icml19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Counting in Machine Learning Applications</title>
+      <link>https://maeichho.github.io/publication/uai18/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://maeichho.github.io/publication/uai18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

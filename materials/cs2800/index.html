@@ -1,15 +1,13 @@
-<!DOCTYPE html><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: January 26, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -22,25 +20,8 @@
 
 
 
-  
 
 
-
-
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
 
   
   
@@ -68,209 +49,16 @@
   
   
   
-    <meta name="theme-color" content="#b31b1b" />
+  
+    
+    <link rel="stylesheet" href="/css/themes/carnellian.min.css" />
   
 
   
   
     
-    <script src="/js/mathjax-config.js"></script>
+    <link href="/dist/wc.min.css" rel="stylesheet" />
   
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
-
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-      
-      
-        
-      
-        
-      
-    
-    
-    
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
-      
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-  
-
-  
-  
-  
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.dba6bb502c82d02e25dfc687c29b1272.css" />
-
-  
-
-
-
-  
-
-  
-
-  
-
-
-
 
   
   
@@ -278,12 +66,100 @@
 
   
 
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
   
-    <link rel="manifest" href="/manifest.webmanifest" />
+  
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_180x180_fill_lanczos_center_3.png" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu12980474893571393961.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu7044673224883452508.png" />
 
   <link rel="canonical" href="https://maeichho.github.io/materials/cs2800/" />
 
@@ -309,9 +185,9 @@
   
   <meta property="og:site_name" content="Matthew Eichhorn" />
   <meta property="og:url" content="https://maeichho.github.io/materials/cs2800/" />
-  <meta property="og:title" content="CS 2800 | Matthew Eichhorn" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://maeichho.github.io/media/icon_hu9428df626ca4f4593e5fc2caafb1ef11_116746_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Matthew Eichhorn" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://maeichho.github.io/media/icon_hu12495277344496374156.png" />
+    <meta property="twitter:image" content="https://maeichho.github.io/media/icon_hu12495277344496374156.png" /><meta property="og:locale" content="en-us" />
   
     
     
@@ -323,909 +199,2203 @@
 
   
 
+
+  <title>Matthew Eichhorn</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
   
 
   
+  
+
+
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
 
 
 
 
 
-  <title>CS 2800 | Matthew Eichhorn</title>
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="89c68d088360bda66c32afb02389d1b2" >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
       
       
-
       
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
         
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header">
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Matthew Eichhorn">
+        Matthew Eichhorn
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
     
 
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#about"
+        >About Me</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#publications"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#teaching"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/materials/about/"
+        >Course Materials</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/resume.pdf"
+        >CV</a
+        >
+      </li>
+      
+      
+      
+    </ul>
 
-
-
-
-
-
-
-
-
-
-
-<header class="header--fixed">
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Matthew Eichhorn</a>
+      
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
       
 
       
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Matthew Eichhorn</a>
-      </div>
       
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about"><span>About Me</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#publications"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/materials/about/"><span>Course Materials</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/uploads/cv.pdf"><span>CV</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-        
-
-        
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
-        
-
-        
-        
-
-      </ul>
-
     </div>
   </nav>
 </header>
 
 
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="relative hbb-section blox-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    CS 2800: Discrete Structures
   </div>
 
-  <div class="page-body">
-    
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
   
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="header" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-        
-          <div class="section-heading col-12 mb-3 text-center">
-            <h1 class="mb-0">CS 2800: Discrete Structures</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-  <div class="col-12">
-    <p style='text-align: justify;'>
-Over the summer of 2021, I worked to develop materials for the support course for CS 2800. In the support course, students revisit the material and work in groups on additional exercises. The worksheets are listed chronologically, and each corresponds to roughly one week of class material. Inspiration for many of the questions comes from Lehman, Leighton, and Meyer's <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf"><i>Mathematics for Computer Science</i></a>.
-</p>
-
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="worksheets" class="home-section wg-accomplishments  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Worksheets</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/proofs.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Proof Techniques</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Direct and contrapositive proofs, proofs by contradiction, counterexamples, case analysis</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/proposition.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Propositional Logic</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Logical operations, truth tables, logical equivalence, translating sentences into logic</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/predicate.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Predicate Logic</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Predicates, quantifiers, understanding expressions with multiple quantifiers</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/sets.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Sets</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Set operations, set equivalence proofs, cardinality, power sets, set builder notation</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/functions.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Functions</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Arrow diagrams, function composition, injection, surjection, invertibility, cardinality</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/induction.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Induction</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Many examples of proofs by induction</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/relations.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Relations</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Inverting and composing relations, properties of relations, partial orders, equivalence relations</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/graphs.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Graphs</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> The graph of a relation, transitive closure, degree, walks, paths, and cycles</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/number.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Number Theory</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Divisibility, modular arithmetic, converting between bases, Euclidean algorithm, fast exponentiation, the RSA cryptosystem</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/combinatorics1.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Combinatorics 1</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> The sum, product, bijection, and division rules, permutations, combinations</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/combinatorics2.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Combinatorics 2</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Binomial identities, the inclusion-exclusion theorem, counting arrangements, the pigeonhole principle</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/probability1.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Probability 1</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Probability spaces, events, discrete distributions, conditional probability, independence, Bayes&rsquo; theorem</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/probability2.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Probability 2</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Random variables, pdfs and cdfs, binomial distribution, expectation, variance, Markov and Chebyshev inequalities</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><img src="/media/icons/brands/cs_2800_aew.svg" width="56px" height="56px" alt="CS 2800 AEW" loading="lazy"></div>
-          <div>
-        <a href="pdfs/automata.pdf" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Automata</div></a><div class="card-subtitle my-0 article-metadata">CS 2800 AEW<span class="middot-divider"></span>
-
-              Aug 2021
-              
-            </div>
-          </div>
-        </div>
-        
-
-        
-          <div class="card-text"><strong>Covers:</strong> Strings and languages, operations on languages, DFAs, the pumping lemma, NFAs, regular expressions, Kleene&rsquo;s theorem</div>
-        
-
-        
-      </div>
-    </div>
-  
-  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">Over the summer of 2021, I worked to develop materials for the support course for CS 2800. In the support course, students revisit the material and work in groups on additional exercises. The worksheets are listed chronologically, and each corresponds to roughly one week of class material. Inspiration for many of the questions comes from Lehman, Leighton, and Meyer&rsquo;s <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf" target="_blank" rel="noopener"><em>Mathematics for Computer Science</em></a>.</div>
 </div>
 
 
+  
+
+  
+</section>
+
+  
+
+  
+  
     
-      </div>
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-awards" class="relative hbb-section blox-resume-awards  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
     
 
-    </div>
-  </section>
 
 
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Worksheets
   </div>
 
-  <div class="page-footer">
+  
+
+<div class="w-full flex flex-col gap-6">
+
+
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/proofs.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Proof Techniques</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Direct and contrapositive proofs, proofs by contradiction, counterexamples, case analysis</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/proposition.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Propositional Logic</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Logical operations, truth tables, logical equivalence, translating sentences into logic</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/predicate.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Predicate Logic</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Predicates, quantifiers, understanding expressions with multiple quantifiers</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/sets.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Sets</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Set operations, set equivalence proofs, cardinality, power sets, set builder notation</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/functions.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Functions</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Arrow diagrams, function composition, injection, surjection, invertibility, cardinality</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/induction.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Induction</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Many examples of proofs by induction</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/relations.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Relations</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Inverting and composing relations, properties of relations, partial orders, equivalence relations</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/graphs.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Graphs</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> The graph of a relation, transitive closure, degree, walks, paths, and cycles</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/number.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Number Theory</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Divisibility, modular arithmetic, converting between bases, Euclidean algorithm, fast exponentiation, the RSA cryptosystem</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/combinatorics1.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Combinatorics 1</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> The sum, product, bijection, and division rules, permutations, combinations</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/combinatorics2.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Combinatorics 2</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Binomial identities, the inclusion-exclusion theorem, counting arrangements, the pigeonhole principle</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/probability1.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Probability 1</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Probability spaces, events, discrete distributions, conditional probability, independence, Bayes&rsquo; theorem</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/probability2.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Probability 2</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Random variables, pdfs and cdfs, binomial distribution, expectation, variance, Markov and Chebyshev inequalities</div>
+  
+
+  
+</div>
+  
+<div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  
+  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="height: 100%;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 482.14 482.14" style="enable-background:new 0 0 482.14 482.14;" xml:space="preserve">
+<g>
+	<path d="M142.024,310.194c0-8.007-5.556-12.782-15.359-12.782c-4.003,0-6.714,0.395-8.132,0.773v25.69
+		c1.679,0.378,3.743,0.504,6.588,0.504C135.57,324.379,142.024,319.1,142.024,310.194z"/>
+	<path d="M202.709,297.681c-4.39,0-7.227,0.379-8.905,0.772v56.896c1.679,0.394,4.39,0.394,6.841,0.394
+		c17.809,0.126,29.424-9.677,29.424-30.449C230.195,307.231,219.611,297.681,202.709,297.681z"/>
+	<path d="M315.458,0H121.811c-28.29,0-51.315,23.041-51.315,51.315v189.754h-5.012c-11.418,0-20.678,9.251-20.678,20.679v125.404
+		c0,11.427,9.259,20.677,20.678,20.677h5.012v22.995c0,28.305,23.025,51.315,51.315,51.315h264.223
+		c28.272,0,51.3-23.011,51.3-51.315V121.449L315.458,0z M99.053,284.379c6.06-1.024,14.578-1.796,26.579-1.796
+		c12.128,0,20.772,2.315,26.58,6.965c5.548,4.382,9.292,11.615,9.292,20.127c0,8.51-2.837,15.745-7.999,20.646
+		c-6.714,6.32-16.643,9.157-28.258,9.157c-2.585,0-4.902-0.128-6.714-0.379v31.096H99.053V284.379z M386.034,450.713H121.811
+		c-10.954,0-19.874-8.92-19.874-19.889v-22.995h246.31c11.42,0,20.679-9.25,20.679-20.677V261.748
+		c0-11.428-9.259-20.679-20.679-20.679h-246.31V51.315c0-10.938,8.921-19.858,19.874-19.858l181.89-0.19v67.233
+		c0,19.638,15.934,35.587,35.587,35.587l65.862-0.189l0.741,296.925C405.891,441.793,396.987,450.713,386.034,450.713z
+		 M174.065,369.801v-85.422c7.225-1.15,16.642-1.796,26.58-1.796c16.516,0,27.226,2.963,35.618,9.282
+		c9.031,6.714,14.704,17.416,14.704,32.781c0,16.643-6.06,28.133-14.453,35.224c-9.157,7.612-23.096,11.222-40.125,11.222
+		C186.191,371.092,178.966,370.446,174.065,369.801z M314.892,319.226v15.996h-31.23v34.973h-19.74v-86.966h53.16v16.122h-33.42
+		v19.875H314.892z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+  </div>
+  
+  <a href=worksheets/automata.pdf target="_blank" rel="noopener">
+    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Automata</h5>
+  </a>
+
+  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+    CS 2800 AEW &#8729;
+    
+      August 2021
+    
+  </div>
+
+  
+  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose"><strong>Covers:</strong> Strings and languages, operations on languages, DFAs, the pumping lemma, NFAs, regular expressions, Kleene&rsquo;s theorem</div>
+  
+
+  
+</div>
+  
+  
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by text-center">
+    © 2024 Matthew Eichhorn.
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by text-center">
     
     
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
     
       
       
@@ -1233,141 +2403,15 @@ Over the summer of 2021, I worked to develop materials for the support course fo
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
-    
-  </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
 
     
-    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
-
-    
-    
-    
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
-      
-
-      
-      
-
-      
-
-      
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
-        
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
-        
-      
-
-    
-
-    
-    
-    
-
-    
-    
-
-    
-    
-    
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
-            </div>
-          </div>
-        </div>
-      </script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-      
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-      
-      
-      
-      
-      
-      
-      
-    
-
-    
-
-    
-    
-    
-    <script id="page-data" type="application/json">{"use_headroom":true}</script>
-
-    
-    
-      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-    <script src="/en/js/wowchemy.min.f4140b8ec5a725451afc89ff5f0c8764.js"></script>
-
     
 
 
@@ -1375,5 +2419,10 @@ Over the summer of 2021, I worked to develop materials for the support course fo
 
 
 
-</body>
+
+
+
+
+
+  </body>
 </html>
